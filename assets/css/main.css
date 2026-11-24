@@ -597,7 +597,7 @@ body.menu-open .drawer { opacity: 1; visibility: visible; transform: none; }
   .cap { grid-template-columns: 3.5rem minmax(0, .9fr) minmax(0, 1.4fr) auto; align-items: start; }
 }
 .cap:hover { background: rgba(11, 31, 63, .035); }
-.cap h3 { font-size: clamp(1.35rem, 1.1rem + 1vw, 1.95rem); }
+.cap h2 { font-size: clamp(1.35rem, 1.1rem + 1vw, 1.95rem); }
 .cap p { color: var(--t-mute); font-size: var(--fs-sm); }
 .cap .num { padding-top: .45rem; }
 .cap__go {
@@ -1320,7 +1320,7 @@ main > .sec:last-child { padding-bottom: clamp(1.5rem, 1rem + 1.4vw, 2.75rem); }
 .footer__grid { display: grid; gap: clamp(2rem, 1rem + 3vw, 3rem); }
 @media (min-width: 800px) { .footer__grid { grid-template-columns: minmax(0, 1.3fr) repeat(3, minmax(0, 1fr)); } }
 .footer img { width: 172px; }
-.footer h4 {
+.footer h3 {
   font: 500 var(--fs-xs)/1 var(--ff-mono);
   letter-spacing: .16em;
   text-transform: uppercase;
