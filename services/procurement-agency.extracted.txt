@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Procurement & Agency | APJ Capital Group</title>
+<meta name="description" content="Commodities, agency representation and government-facing procurement across the Middle East: capital, contracts and market access.">
+<meta property="og:title" content="Procurement & Agency | APJ Capital Group">
+<meta property="og:description" content="Commodities, agency representation and government-facing procurement across the Middle East: capital, contracts and market access.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="../assets/img/logo.png">
+<link rel="apple-touch-icon" href="../assets/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialService",
+  "name": "APJ Capital Group of Companies",
+  "url": "https://www.apjcapital.com/",
+  "email": "albert@apjcapital.com",
+  "description": "Commodities, agency representation and government-facing procurement across the Middle East: capital, contracts and market access.",
+  "areaServed": ["United States", "Jordan", "South Africa"],
+  "address": [
+    {"@type":"PostalAddress","addressLocality":"San Francisco","addressRegion":"CA","addressCountry":"US"},
+    {"@type":"PostalAddress","addressLocality":"Amman","addressCountry":"JO"},
+    {"@type":"PostalAddress","addressLocality":"Johannesburg","addressCountry":"ZA","streetAddress":"1st Floor, Building 2, Commerce Square, Corner Melville Road, Sandhurst"}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="shell masthead__in">
+    <a class="brand" href="../index.html" aria-label="APJ Capital Group, home">
+      <img src="../assets/img/logo.png" alt="APJ Capital Group of Companies" width="300" height="100">
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="../about.html">Firm</a><a href="../sectors.html">Expertise</a><a href="../services.html" aria-current="page">Services</a><a href="../experience.html">Experience</a><a href="../contact.html">Contact</a>
+    </nav>
+    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="drawer">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="drawer" id="drawer" aria-hidden="true">
+  <a href="../about.html"><span>Firm</span><span class="num">01</span></a><a href="../sectors.html"><span>Expertise</span><span class="num">02</span></a><a href="../services.html"><span>Services</span><span class="num">03</span></a><a href="../experience.html"><span>Experience</span><span class="num">04</span></a><a href="../contact.html"><span>Contact</span><span class="num">05</span></a>
+  <div class="drawer__foot">
+    <p>San Francisco · Amman · Johannesburg</p>
+    <a href="mailto:albert@apjcapital.com">albert@apjcapital.com</a>
+  </div>
+</div>
+<main id="main">
+<section class="pagehead pagehead--media">
+  <img class="pagehead__bg" src="../assets/img/office-amman.jpg" alt="" aria-hidden="true">
+  <div class="shell">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="../index.html">APJ Capital</a><span>/</span><span>Procurement & Agency</span>
+    </nav>
+    <p class="hero__kicker">Services 02</p>
+    <h1>Procurement & Agency</h1>
+    <p class="lede">Commodities, agency representation and government-facing procurement across the Middle East: capital, contracts and market access.</p>
+  </div>
+</section><nav class="subnav"><div class="shell"><ul><li><a href="investment-banking.html">Investment Banking</a></li><li><a href="procurement-agency.html" aria-current="page">Procurement & Agency</a></li><li><a href="southern-africa.html">Southern Africa Platform</a></li><li><a href="operational-execution.html">Operational Corporate Execution</a></li><li><a href="inflection-point.html">Market Inflection Point Strategy</a></li></ul></div></nav>
+<section class="sec">
+  <div class="shell
+    <div class="deco-strip deco-strip--top" aria-hidden="true">
+        <img src="../svg/flow-route.svg" alt="">
+      </div> split split--wide-left">
+    <div class="prose split__body split__sticky" data-reveal>
+      <p>With a diversified network of capital providers and strategic partners, APJ Capital Group is more than a source of funding and investment. We add value across every aspect of our clients’ businesses.</p><h3>Middle East Procurement and Representation</h3><p>The Middle East faces significant demand for infrastructure rebuilding and for commodities, particularly petroleum derivatives. In response, APJ Capital has grown into a procurement and agency-representation firm in the region. Procurement has become integral to corporate performance there, and we have built strong customer-supplier relationships that help our clients achieve sustained cost savings.</p><p>Our tactical services include engagement with senior policy makers across the Middle East and the tracking of government contracts and procurement developments. We assist clients in raising debt and equity capital and, where appropriate, make strategic investments in their businesses alongside them.</p><h3>Our Commitment</h3><p>We give every transaction our full attention, with the aim of generating positive risk-adjusted returns across market cycles. Each opportunity is assessed through rigorous fundamental analysis of the drivers of risk and return, together with a cost-benefit review of both qualitative and quantitative factors, before we proceed to extensive due diligence.</p>
+      <p class="mt-m"><a class="link-arrow" href="../contact.html">Discuss a mandate</a></p>
+    </div>
+    <div data-reveal data-reveal-delay="120">
+      <h3>Tactical services</h3>
+      <ul class="prose mt-m"><li>Petroleum derivatives procurement: diesel (D2), diesel and A1 jet fuel supply.</li><li>Crude oil procurement from Iraq for petrochemical resource companies.</li><li>Government contract and procurement tracking across the Middle East.</li><li>Agency representation and local presence for international suppliers.</li><li>Procurement services for water purification and reticulation projects.</li></ul>
+      <ul class="keylist mt-l"><li><b>Geography</b><span>Middle East: Jordan, Iraq, Gulf</span></li><li><b>Sectors served</b><span>Petrochemicals, electricity, security, water & sanitation, alternative energy</span></li><li><b>Model</b><span>Principal, agent or mandated procurement</span></li></ul>
+    
+    </div>
+  </div>
+</section>
+
+<section class="sec sec--dark cta">
+  <div class="shell">
+    <div>
+      <p class="eyebrow eyebrow--light">Next step</p>
+      <h2 class="mt-m">Start a conversation.</h2>
+      <p class="lede mt-m">Tell us what you are structuring, sourcing or financing. The first
+        conversation is a scoping conversation, not a pitch.</p>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="shell">
+    <div class="footer__grid">
+      <div>
+        <img src="../assets/img/logo.png" alt="APJ Capital Group of Companies" width="300" height="100">
+        <p style="margin-top:1.1rem;max-width:34ch">Private Equity · Investment Banking · M&A Advisory. Offices in San Francisco,
+           Amman and Johannesburg.</p>
+        <p style="margin-top:.9rem"><a class="btn btn--mail" href="mailto:albert@apjcapital.com"><span>Email us</span><span class="arrow" aria-hidden="true">→</span></a></p>
+      </div>
+      <div>
+        <h4>Firm</h4>
+        <ul>
+          <li><a href="../about.html">About APJ</a></li>
+          <li><a href="../sectors.html">Sector expertise</a></li>
+          <li><a href="../experience.html">Selected experience</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul><li><a href="../services/investment-banking.html">Investment Banking</a></li><li><a href="../services/procurement-agency.html">Procurement & Agency</a></li><li><a href="../services/southern-africa.html">Southern Africa Platform</a></li><li><a href="../services/operational-execution.html">Operational Corporate Execution</a></li><li><a href="../services/inflection-point.html">Market Inflection Point Strategy</a></li></ul>
+      </div>
+      <div>
+        <h4>Offices</h4>
+        <ul><li><strong style="color:#fff">San Francisco</strong><br>United States</li><li><strong style="color:#fff">Amman</strong><br>Jordan</li><li><strong style="color:#fff">Johannesburg</strong><br>South Africa</li></ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <p class="footer__copy">© <span data-year>2026</span> APJ Capital Group of Companies. All rights reserved.</p>
+      <p class="footer__powered"><span class="footer__powered-label">Powered By</span>
+        <a class="footer__credit" href="https://goodstuffdesigns.co.za/" target="_blank" rel="noopener"
+           aria-label="Goodstuff Designs, opens in a new tab">
+          <svg xmlns="http://www.w3.org/2000/svg" width="220" height="36" viewBox="0 0 220 36" role="img" aria-hidden="true" focusable="false">
+            <path d="M8 11h14a6 6 0 0 1 0 12H14a4 4 0 0 0 0 8h14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+            <circle cx="8" cy="11" r="2.5" fill="currentColor"/>
+            <circle cx="28" cy="31" r="2.5" fill="currentColor"/>
+            <text x="36" y="23" fill="currentColor" font-family="Inter, Helvetica, Arial, sans-serif" font-size="16">Goodstuff Designs</text>
+          </svg>
+        </a>
+      </p>
+      <p class="footer__tagline">USA certified investment banking · Procurement &amp; agency representation</p>
+    </div>
+    <!-- <div class="footer__mark">
+      <p class="footer__mark-line"><b>APJ</b><span>Capital</span></p>
+      <p class="footer__mark-sub">Private Equity · Investment Banking · M&A Advisory</p>
+    </div> -->
+  </div>
+</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-label="Rising line graph that draws itself on, ending in a pulsing dot">
+  <style>
+    .grid { stroke: rgba(15, 26, 43, .12); stroke-width: 1; }
+    .grid--strong { stroke: rgba(15, 26, 43, .28); }
+    .area { fill: rgba(2, 114, 82, .1); opacity: 0; animation: fadein .8s ease-out forwards 1.6s; }
+    .line { fill: none; stroke: #027252; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round;
+            stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2s ease-in-out forwards .3s; }
+    .dot  { fill: #d99b2b; stroke: #fff; stroke-width: 2; opacity: 0; animation: pop .4s ease-out forwards 2.3s; }
+    .ring { fill: none; stroke: #d99b2b; stroke-width: 1.5; opacity: 0; animation: ripple 2.4s ease-out infinite 2.6s; }
+    .ring--b { animation-delay: 3.4s; }
+    .ring--c { animation-delay: 4.2s; }
+    @keyframes draw  { to { stroke-dashoffset: 0; } }
+    @keyframes pop   { to { opacity: 1; } }
+    @keyframes fadein{ to { opacity: 1; } }
+    @keyframes ripple{ 0% { opacity: .7; } 100% { opacity: 0; } }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .line, .arc, .glint, .curve, .bar, .ring, .dot, .val, .core, .lbl { animation: none !important; }
+    .line, .arc, .glint, .curve { stroke-dashoffset: 0 !important; }
+    .bar { transform: none !important; }
+    .dot, .val, .core, .lbl { opacity: 1 !important; }
+  }
+  </style>
+  <g>
+    <line class="grid grid--strong" x1="40" y1="260" x2="650" y2="260"/>
+    <line class="grid" x1="40" y1="200" x2="650" y2="200"/>
+    <line class="grid" x1="40" y1="140" x2="650" y2="140"/>
+    <line class="grid" x1="40" y1="80"  x2="650" y2="80"/>
+  </g>
+  <path class="area" d="M40 240 C100 230 130 190 180 195 S260 140 310 145 S380 100 430 90 S520 60 560 30 S620 20 640 12 L640 260 L40 260 Z"/>
+  <path class="line" pathLength="1" d="M40 240 C100 230 130 190 180 195 S260 140 310 145 S380 100 430 90 S520 60 560 30 S620 20 640 12"/>
+  <circle class="dot" cx="640" cy="12" r="6"/>
+  <circle class="ring"   cx="640" cy="12" r="6"/>
+  <circle class="ring ring--b" cx="640" cy="12" r="6"/>
+  <circle class="ring ring--c" cx="640" cy="12" r="6"/>
+</svg>

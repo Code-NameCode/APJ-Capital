@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-label="S-curve with pulsing radar rings at its market inflection point">
+  <style>
+    .axis  { stroke: rgba(15, 26, 43, .28); stroke-width: 1; }
+    .curve { fill: none; stroke: #027252; stroke-width: 2.5; stroke-linecap: round;
+             stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1.8s ease-in-out forwards .3s; }
+    .ring  { fill: #d99b2b; opacity: 0; animation: ripple 2.4s ease-out infinite; }
+    .ring--b { animation-delay: .8s; }
+    .ring--c { animation-delay: 1.6s; }
+    .core  { fill: #d99b2b; stroke: #fff; stroke-width: 2; opacity: 0; animation: pop .4s ease-out forwards .6s; }
+    .lbl   { fill: rgba(15, 26, 43, .65); font: 500 12px monospace; letter-spacing: .08em; opacity: 0; animation: pop .5s ease-out forwards 2s; }
+    @keyframes draw   { to { stroke-dashoffset: 0; } }
+    @keyframes ripple { 0% { opacity: .55; } 100% { opacity: 0; } }
+    @keyframes pop    { to { opacity: 1; } }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .line, .arc, .glint, .curve, .bar, .ring, .dot, .val, .core, .lbl { animation: none !important; }
+    .line, .arc, .glint, .curve { stroke-dashoffset: 0 !important; }
+    .bar { transform: none !important; }
+    .dot, .val, .core, .lbl { opacity: 1 !important; }
+  }
+  </style>
+  <line class="axis" x1="40" y1="220" x2="440" y2="220"/>
+  <path class="curve" pathLength="1" d="M40 200 C240 200 240 40 440 40"/>
+  <circle class="ring"   cx="240" cy="120" r="5"/>
+  <circle class="ring ring--b" cx="240" cy="120" r="5"/>
+  <circle class="ring ring--c" cx="240" cy="120" r="5"/>
+  <circle class="core" cx="240" cy="120" r="6"/>
+  <text class="lbl" x="260" y="116">INFLECTION</text>
+</svg>

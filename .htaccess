@@ -1,0 +1,65 @@
+# APJ Capital — Apache configuration
+
+# Custom error pages
+ErrorDocument 404 /404.html
+
+# Point crawlers at the sitemap
+<IfModule mod_rewrite.c>
+  RewriteRule ^sitemap\.xml$ - [L]
+</IfModule>
+
+Sitemap https://www.apjcapital.com/sitemap.xml
+
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # ---------------------------------------------------------------
+  # 1. Legacy / alternate URLs -> permanent (301) redirect to the
+  #    canonical clean URL. These run first so the visitor's address
+  #    bar always ends up showing the clean version.
+  # ---------------------------------------------------------------
+
+  # Common legacy filenames people (and old links) may try
+  RewriteRule ^aboutus\.html$ /firm [R=301,L]
+  RewriteRule ^about-us\.html$ /firm [R=301,L]
+  RewriteRule ^about\.html$    /firm [R=301,L]
+  RewriteRule ^firm\.html$     /firm [R=301,L]
+
+  RewriteRule ^sectors\.html$      /expertise [R=301,L]
+  RewriteRule ^expertise\.html$    /expertise [R=301,L]
+  RewriteRule ^sectors\.htm$       /expertise [R=301,L]
+
+  RewriteRule ^experience\.html$ /experience [R=301,L]
+  RewriteRule ^track-record\.html$ /experience [R=301,L]
+
+  RewriteRule ^contactus\.html$ /contact [R=301,L]
+  RewriteRule ^contact-us\.html$ /contact [R=301,L]
+  RewriteRule ^contact\.html$    /contact [R=301,L]
+
+  RewriteRule ^services\.html$ /services [R=301,L]
+  RewriteRule ^service\.html$  /services [R=301,L]
+
+  # ---------------------------------------------------------------
+  # 2. Clean URLs -> real files (internal rewrite, URL stays clean).
+  #    /firm shows about.html, /expertise shows sectors.html, etc.
+  #    index.html stays reachable as the home page at /.
+  # ---------------------------------------------------------------
+  RewriteRule ^firm/?$      about.html     [L]
+  RewriteRule ^expertise/?$ sectors.html   [L]
+  RewriteRule ^services/?$  services.html  [L]
+  RewriteRule ^experience/?$ experience.html [L]
+  RewriteRule ^contact/?$   contact.html   [L]
+</IfModule>
+
+# Caching for static assets (sensible defaults; safe if mod_expires absent)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/png  "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType text/css   "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+</IfModule>

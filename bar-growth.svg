@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Animated growing bar chart">
+  <style>
+    .axis { stroke: rgba(255,255,255,.14); stroke-width: 1; }
+    .bar { fill: #027252; transform-origin: 160px 150px; transform: scaleY(0); animation: grow 1s var(--d,0s) cubic-bezier(.2,.7,.3,1) forwards; }
+    .bar--alt { fill: #0f4a37; }
+    .val { fill: #ffb454; opacity: 0; animation: fadein .5s ease-out forwards 1.4s; font: 600 13px sans-serif; }
+    @keyframes grow { to { transform: scaleY(1); } }
+    @keyframes fadein { to { opacity: 1; } }
+  </style>
+  <path class="axis" d="M20 150 H300 M20 150 V20"/>
+  <rect class="bar" style="--d:.2s"  x="45"  y="96"  width="34" height="54"  rx="2"/>
+  <rect class="bar bar--alt" style="--d:.4s" x="95"  y="74"  width="34" height="76"  rx="2"/>
+  <rect class="bar" style="--d:.6s"  x="145" y="58"  width="34" height="92"  rx="2"/>
+  <rect class="bar bar--alt" style="--d:.8s" x="195" y="40"  width="34" height="110" rx="2"/>
+  <rect class="bar" style="--d:1s"   x="245" y="26"  width="34" height="124" rx="2"/>
+  <text class="val" x="252" y="18">+214%</text>
+</svg>

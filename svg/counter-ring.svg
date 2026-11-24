@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Animated progress ring">
+  <style>
+    .track { fill: none; stroke: rgba(255,255,255,.12); stroke-width: 8; }
+    .arc   { fill: none; stroke: #027252; stroke-width: 8; stroke-linecap: round;
+             stroke-dasharray: 414.7; stroke-dashoffset: 414.7;
+             transform: rotate(-90deg); transform-origin: 90px 90px;
+             animation: fill 2s cubic-bezier(.3,.7,.3,1) forwards .3s; }
+    .glint { fill: none; stroke: #ffb454; stroke-width: 8; stroke-linecap: round;
+             stroke-dasharray: 24 390.7; stroke-dashoffset: 414.7;
+             transform: rotate(-90deg); transform-origin: 90px 90px;
+             animation: fill 2s cubic-bezier(.3,.7,.3,1) forwards .3s; }
+    @keyframes fill { to { stroke-dashoffset: 83; } }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .bar, .arc, .glint { animation: none !important; }
+    .arc, .glint { stroke-dashoffset: 0 !important; }
+    .bar { transform: none !important; }
+    .val { opacity: 1 !important; }
+  }
+  </style>
+  <circle class="track" cx="90" cy="90" r="66"/>
+  <circle class="arc"   cx="90" cy="90" r="66"/>
+  <circle class="glint" cx="90" cy="90" r="66"/>
+</svg>

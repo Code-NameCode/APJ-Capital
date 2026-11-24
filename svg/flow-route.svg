@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 110" role="img" aria-label="Procurement flow from supplier through warehouse to site along animated dashed lines">
+  <style>
+    .box   { fill: none; stroke: rgba(15, 26, 43, .35); stroke-width: 1; }
+    .route { fill: none; stroke: #027252; stroke-width: 2; stroke-linecap: round;
+             stroke-dasharray: 6 8; animation: flow 1.4s linear infinite; }
+    .lbl   { fill: #0f1a2b; font: 600 13px sans-serif; }
+    @keyframes flow { to { stroke-dashoffset: -28; } }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .line, .arc, .glint, .curve, .bar, .ring, .dot, .val, .core, .lbl { animation: none !important; }
+    .line, .arc, .glint, .curve { stroke-dashoffset: 0 !important; }
+    .bar { transform: none !important; }
+    .dot, .val, .core, .lbl { opacity: 1 !important; }
+  }
+  </style>
+  <line class="route" x1="124" y1="40" x2="284" y2="40"/>
+  <line class="route" x1="396" y1="40" x2="556" y2="40"/>
+  <rect class="box" x="20"  y="24" width="104" height="32" rx="6"/>
+  <rect class="box" x="288" y="24" width="104" height="32" rx="6"/>
+  <rect class="box" x="556" y="24" width="104" height="32" rx="6"/>
+  <text class="lbl" x="72"  y="44" text-anchor="middle">Supplier</text>
+  <text class="lbl" x="340" y="44" text-anchor="middle">Warehouse</text>
+  <text class="lbl" x="608" y="44" text-anchor="middle">Site</text>
+</svg>
